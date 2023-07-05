@@ -1,4 +1,4 @@
-```rst
+
 .. _index:
 
 ========================================
@@ -253,7 +253,124 @@ Example Response
         "resultCount": 6,
         "cost": 0,
         "result": [
-           Here's the rearranged code with proper formatting:
+          {
+            "id": "benue",
+            "name": "Benue",
+            "region": "North Central",
+            "capital": "Makurdi",
+            "deputy": "Benson Abounu",
+            "governor": "Samuel Ortom",
+            "slogan": "The Food Basket Of The Nation",
+            "subRegion": [
+                "Agatu",
+                "Apa",
+                "Ado",
+                "Buruku",
+                "Gboko",
+                "Guma",
+                "Gwer East",
+                "Gwer West",
+                "Katsina-Ala",
+                "Konshisha",
+                "Kwande",
+                "Logo",
+                "Makurdi",
+                "Obi",
+                "Ogbadibo",
+                "Ohimini",
+                "Oju",
+                "Okpokwu",
+                "Oturkpo",
+                "Tarka",
+                "Ukum",
+                "Ushongo",
+                "Vandeikya"
+            ]
+        },
+        {
+            "id": "kogi",
+            "name": "Kogi",
+            "region": "North Central",
+            "capital": "Lokoja",
+            "deputy": "Edward Onoja",
+            "governor": "Yahaya Bello",
+            "slogan": "The Confluence State",
+            "subRegion": [
+                "Adavi",
+                "Ajaokuta",
+                "Ankpa",
+                "Bassa",
+                "Dekina",
+                "Ibaji",
+                "Idah",
+                "Igalamela Odolu",
+                "Ijumu",
+                "Kabba Bunu",
+                "Kogi",
+                "Lokoja",
+                "Mopa Muro",
+                "Ofu",
+                "Ogori Magongo",
+                "Okehi",
+                "Okene",
+                "Olamaboro",
+                "Omala",
+                "Yagba East",
+                "Yagba West"
+            ]
+        },
+        {
+            "id": "kwara",
+            "name": "Kwara",
+            "region": "North Central",
+            "capital": "Ilorin",
+            "deputy": "Kayode Alabi",
+            "governor": "Abdulrahman Abdulrazaq",
+            "slogan": "The Place Of Harmony",
+            "subRegion": [
+                "Asa",
+                "Baruten",
+                "Edu",
+                "Ekiti",
+                "Ifelodun",
+                "Ilorin East",
+                "Ilorin South",
+                "Ilorin West",
+                "Irepodun",
+                "Isin",
+                "Kaiama",
+                "Moro",
+                "Offa",
+                "Oke Ero",
+                "Oyun",
+                "Pategi"
+            ]
+        },
+        {
+            "id": "nasarawa",
+            "name": "Nasarawa",
+            "region": "North Central",
+            "capital": "Lafia",
+            "deputy": "Emmanuel Agbadu Akabe",
+            "governor": "Abdullahi Sule",
+            "slogan": "Nigeria's Home Of Solid Minerals",
+            "subRegion": [
+                "Akwanga",
+                "Awe",
+                "Doma",
+                "Karu",
+                "Keana",
+                "Keffi",
+                "Kokona",
+                "Lafia",
+                "Nasarawa",
+                "Nasarawa Egon",
+                "Obi",
+                "Toto",
+                "Wamba"
+            ]
+        },
+        ---
         ]
 
            }
