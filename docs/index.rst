@@ -166,18 +166,159 @@ Retrieve a list of all the states in Nigeria.
 
 .. tabs::
 
-   .. tab:: Bash
+      .. code-block:: NodeJs
 
-      .. code-block:: bash
+         # Example request in Node.js
+         const fetch = require('node-fetch');
 
-         # Example request in Bash
-         curl -X GET http://localhost:7000/api/v1/nigeria/state
+         fetch('http://localhost:7000/api/v1/nigeria/state')
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.error(error))
 
-   .. tab:: Node.js
 
-      .. code-block:: javascript
 
-         // Example request in Node.js
+            
+Example response:
+
+.. code-block:: json
+
+{
+    "message": "successfull",
+    "resultCount": 37,
+    "cost": 0,
+    "result": [
+        {
+            "id": "abia",
+            "name": "Abia",
+            "region": "South East",
+            "capital": "Umuahia",
+            "deputy": "Ude Oko Chukwu",
+            "governor": "Okezie Ikpeazu",
+            "slogan": "God's Own State",
+            "subRegion": [
+                "Aba North",
+                "Aba South",
+                "Arochukwu",
+                "Bende",
+                "Ikwuano",
+                "Isiala Ngwa North",
+                "Isiala Ngwa South",
+                "Isuikwuato",
+                "Obi Ngwa",
+                "Ohafia",
+                "Osisioma",
+                "Ugwunagbo",
+                "Ukwa East",
+                "Ukwa West",
+                "Umuahia North",
+                "muahia South",
+                "Umu Nneochi"
+            ]
+        },
+        {
+            "id": "adamawa",
+            "name": "Adamawa",
+            "region": "North East",
+            "capital": "Yola",
+            "deputy": "Martin Babale",
+            "governor": "Bindo Jibrilla",
+            "slogan": "Land Of Beauty, Sunshine And Hospitality",
+            "subRegion": [
+                "Demsa",
+                "Fufure",
+                "Ganye",
+                "Gayuk",
+                "Gombi",
+                "Grie",
+                "Hong",
+                "Jada",
+                "Larmurde",
+                "Madagali",
+                "Maiha",
+                "Mayo Belwa",
+                "Michika",
+                "Mubi North",
+                "Mubi South",
+                "Numan",
+                "Shelleng",
+                "Song",
+                "Toungo",
+                "Yola North",
+                "Yola South"
+            ]
+        },
+        {
+            "id": "akwa-ibom",
+            "name": "Akwa Ibom",
+            "region": "South South",
+            "capital": "Uyo",
+            "deputy": "Moses Frank Ekpo",
+            "governor": "Udom Emmanuel",
+            "slogan": "Land Of Promise",
+            "subRegion": [
+                "Abak",
+                "Eastern Obolo",
+                "Eket",
+                "Esit Eket",
+                "Essien Udim",
+                "Etim Ekpo",
+                "Etinan",
+                "Ibeno",
+                "Ibesikpo Asutan",
+                "Ibiono-Ibom",
+                "Ika",
+                "Ikono",
+                "Ikot Abasi",
+                "Ikot Ekpene",
+                "Ini",
+                "Itu",
+                "Mbo",
+                "Mkpat-Enin",
+                "Nsit-Atai",
+                "Nsit-Ibom",
+                "Nsit-Ubium",
+                "Obot Akara",
+                "Okobo",
+                "Onna",
+                "Oron",
+                "Oruk Anam",
+                "Udung-Uko",
+                "Uruan",
+                "Urue-Offong Oruko",
+                "Uyo"
+            ]
+        },
+
+    ]
+    }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+            
+.. tabs::
+
+      .. code-block:: NodeJs
+
+         # Example request in Node.js
          const fetch = require('node-fetch');
 
          fetch('http://localhost:7000/api/v1/nigeria/state')
