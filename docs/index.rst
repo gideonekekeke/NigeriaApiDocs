@@ -164,9 +164,8 @@ GET /api/v1/nigeria/state
 
 Retrieve a list of all the states in Nigeria.
 
-.. tabs::
 
-      .. code-block:: NodeJs
+      .. code-block:: 
 
          # Example request in Node.js
          const fetch = require('node-fetch');
