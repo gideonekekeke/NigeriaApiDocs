@@ -30,9 +30,39 @@ GET /api/v1/nigeria/state
 
 Retrieve a list of all the states in nigeria.
 
+.. tabs::
+
+   .. tab:: Stars
+
+      .. tabs::
+
+         .. tab:: The Sun
+
+            The closest star to us.
+
+         .. tab:: Proxima Centauri
+
+            The second closest star to us.
+
+         .. tab:: Polaris
+
+            The North Star.
+
+   .. tab:: Moons
+
+      .. tabs::
+
+         .. tab:: The Moon
+
+            Orbits the Earth
+
+         .. tab:: Titan
+
+            Orbits Jupiter
+
 
 .. tabs::
-   .. code-tab:: bash
+   .. tab:: bash
 
       # Example request in Bash
       import requests
@@ -43,7 +73,7 @@ Retrieve a list of all the states in nigeria.
       response = requests.get(url, headers=headers)
       print(response.json())
 
-   .. code-tab:: python
+   .. tab:: python
 
       # Example request in Python
       import requests
