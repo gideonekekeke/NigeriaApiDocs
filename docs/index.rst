@@ -1,19 +1,19 @@
 .. _index:
 
 ****************************************
-Nigeria API Documentation
+NigeriaState API Documentation
 ****************************************
 
 .. meta::
     :description: This is the official documentation for the Nigeria API developed by Gideon Ekeke.
-    :keywords: Nigeria API, Documentation
+    :keywords: NigeriaState API, Documentation
 
 .. _dsg-introduction:
 
 Introduction
 ============
 
-This documentation provides details on how to use the Nigeria API, developed by Gideon Ekeke.
+This documentation provides details on how to use the NigeriaState API, developed by Gideon Ekeke.
 The API allows developers to access information about Nigerian states, regions, and subregions.
 We provide examples, including API endpoints and their expected responses, for both visual and technical reference.
 
@@ -22,60 +22,55 @@ The source code of this API is located in its `project repository on GitHub <htt
 If you want to use another programming language to consume this API, follow the examples provided below.
 
 
-Projects list
+State list
 =============
 
-GET /api/v3/projects/
+GET /api/v1/nigeria/state
 ---------------------
 
-Retrieve a list of all the projects for the current logged-in user.
-
+Retrieve a list of all the states in nigeria.
 .. tabs::
 
-    .. code-tab:: bash
-        :title: Example request (Bash)
+   .. code-tab:: bash
 
-        import requests
+      # Example request in Bash
+      import requests
 
-        URL = 'https://readthedocs.org/api/v3/projects/'
-        TOKEN = '<token>'
-        HEADERS = {'Authorization': f'token {TOKEN}'}
+      url = 'https://readthedocs.org/api/v3/projects/'
+      token = '<token>'
+      headers = {'Authorization': f'token {token}'}
+      response = requests.get(url, headers=headers)
+      print(response.json())
 
-        response = requests.get(URL, headers=HEADERS)
-        print(response.json())
+   .. code-tab:: python
 
-    .. code-tab:: python
-        :title: Example request (Python)
+      # Example request in Python
+      import requests
 
-        import requests
+      url = 'https://readthedocs.org/api/v3/projects/'
+      token = '<token>'
+      headers = {'Authorization': f'token {token}'}
+      response = requests.get(url, headers=headers)
+      print(response.json())
 
-        URL = 'https://readthedocs.org/api/v3/projects/'
-        TOKEN = '<token>'
-        HEADERS = {'Authorization': f'token {TOKEN}'}
 
-        response = requests.get(URL, headers=HEADERS)
-        print(response.json())
 
-    .. code-tab:: javascript
-        :title: Example request (JavaScript)
 
-        const axios = require('axios');
 
-        const URL = 'https://readthedocs.org/api/v3/projects/';
-        const TOKEN = '<token>';
-        const config = {
-            headers: {
-                'Authorization': `token ${TOKEN}`
-            }
-        };
 
-        axios.get(URL, config)
-            .then(response => {
-                console.log(response.data);
-            })
-            .catch(error => {
-                console.error(error);
-            })
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
