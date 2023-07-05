@@ -71,7 +71,50 @@ To use the Nigeria API in your project, you can follow the installation steps be
      var nigeriaApi = new NigeriaApiClient();
      ```
 
-     .. code-block:: code-snippet
+   .. code-block:: code-snippet
+
+   :language: python
+   :caption: Python
+
+   from nigeria_api_client import NigeriaApiClient
+
+   nigeria_api = NigeriaApiClient()
+   state = nigeria_api.get_single_state('Lagos')
+   states = nigeria_api.get_states_by_region('South West')
+
+.. code-block:: code-snippet
+
+   :language: javascript
+   :caption: JavaScript (Node.js)
+
+   const NigeriaApiClient = require('nigeria-api-client');
+
+   const nigeriaApi = new NigeriaApiClient();
+   const state = nigeriaApi.getSingleState('Lagos');
+   const states = nigeriaApi.getStatesByRegion('South West');
+
+.. code-block:: code-snippet
+
+   :language: php
+   :caption: PHP
+
+   use NigeriaApiClient\NigeriaApiClient;
+
+   $nigeriaApi = new NigeriaApiClient();
+   $state = $nigeriaApi->getSingleState('Lagos');
+   $states = $nigeriaApi->getStatesByRegion('South West');
+
+.. code-block:: code-snippet
+
+   :language: csharp
+   :caption: C#
+
+   using NigeriaApiClient;
+
+   var nigeriaApi = new NigeriaApiClient();
+   var state = nigeriaApi.GetSingleState("Lagos");
+   var states = nigeriaApi.GetStatesByRegion("South West");
+
 
    ```python
    # Python
