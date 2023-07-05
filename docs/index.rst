@@ -178,123 +178,30 @@ Retrieve a list of all the states in Nigeria.
 
 
             
-Example response:
+.. code-block:: json
 
-.. code-block:: 
-
-{
-    "message": "successfull",
-    "resultCount": 37,
-    "cost": 0,
-    "result": [
-        {
-            "id": "abia",
-            "name": "Abia",
-            "region": "South East",
-            "capital": "Umuahia",
-            "deputy": "Ude Oko Chukwu",
-            "governor": "Okezie Ikpeazu",
-            "slogan": "God's Own State",
-            "subRegion": [
-                "Aba North",
-                "Aba South",
-                "Arochukwu",
-                "Bende",
-                "Ikwuano",
-                "Isiala Ngwa North",
-                "Isiala Ngwa South",
-                "Isuikwuato",
-                "Obi Ngwa",
-                "Ohafia",
-                "Osisioma",
-                "Ugwunagbo",
-                "Ukwa East",
-                "Ukwa West",
-                "Umuahia North",
-                "muahia South",
-                "Umu Nneochi"
-            ]
-        },
-        {
-            "id": "adamawa",
-            "name": "Adamawa",
-            "region": "North East",
-            "capital": "Yola",
-            "deputy": "Martin Babale",
-            "governor": "Bindo Jibrilla",
-            "slogan": "Land Of Beauty, Sunshine And Hospitality",
-            "subRegion": [
-                "Demsa",
-                "Fufure",
-                "Ganye",
-                "Gayuk",
-                "Gombi",
-                "Grie",
-                "Hong",
-                "Jada",
-                "Larmurde",
-                "Madagali",
-                "Maiha",
-                "Mayo Belwa",
-                "Michika",
-                "Mubi North",
-                "Mubi South",
-                "Numan",
-                "Shelleng",
-                "Song",
-                "Toungo",
-                "Yola North",
-                "Yola South"
-            ]
-        },
-        {
-            "id": "akwa-ibom",
-            "name": "Akwa Ibom",
-            "region": "South South",
-            "capital": "Uyo",
-            "deputy": "Moses Frank Ekpo",
-            "governor": "Udom Emmanuel",
-            "slogan": "Land Of Promise",
-            "subRegion": [
-                "Abak",
-                "Eastern Obolo",
-                "Eket",
-                "Esit Eket",
-                "Essien Udim",
-                "Etim Ekpo",
-                "Etinan",
-                "Ibeno",
-                "Ibesikpo Asutan",
-                "Ibiono-Ibom",
-                "Ika",
-                "Ikono",
-                "Ikot Abasi",
-                "Ikot Ekpene",
-                "Ini",
-                "Itu",
-                "Mbo",
-                "Mkpat-Enin",
-                "Nsit-Atai",
-                "Nsit-Ibom",
-                "Nsit-Ubium",
-                "Obot Akara",
-                "Okobo",
-                "Onna",
-                "Oron",
-                "Oruk Anam",
-                "Udung-Uko",
-                "Uruan",
-                "Urue-Offong Oruko",
-                "Uyo"
-            ]
-        },
-
-    ]
-    
+    {
+        "count": 25,
+        "next": "/api/v3/projects/?limit=10&offset=10",
+        "previous": null,
+        "results": [{
+            "id": 12345,
+            "name": "Pip",
+            "slug": "pip",
+            "created": "2010-10-23T18:12:31+00:00",
+            "modified": "2018-12-11T07:21:11+00:00",
+            "language": {
+                "code": "en",
+                "name": "English"
+            },
+            "programming_language": {
+                "code": "py",
+                "name": "Python"
+            }
+        }]
+    }
 
 
-
-    
 
 Region list
 =============
