@@ -21,6 +21,93 @@ The source code of this API is located in its `project repository on GitHub <htt
 
 If you want to use another programming language to consume this API, follow the examples provided below.
 
+
+Projects list
+=============
+
+GET /api/v3/projects/
+---------------------
+
+Retrieve a list of all the projects for the current logged-in user.
+
+.. tabs::
+    .. tab:: Bash
+        Example request:
+
+        .. code-block:: bash
+
+            import requests
+
+            URL = 'https://readthedocs.org/api/v3/projects/'
+            TOKEN = '<token>'
+            HEADERS = {'Authorization': f'token {TOKEN}'}
+
+            response = requests.get(URL, headers=HEADERS)
+            print(response.json())
+
+    .. tab:: Python
+        Example request:
+
+        .. code-block:: python
+
+            import requests
+
+            URL = 'https://readthedocs.org/api/v3/projects/'
+            TOKEN = '<token>'
+            HEADERS = {'Authorization': f'token {TOKEN}'}
+
+            response = requests.get(URL, headers=HEADERS)
+            print(response.json())
+
+    .. tab:: JavaScript
+        Example request:
+
+        .. code-block:: javascript
+
+            const axios = require('axios');
+
+            const URL = 'https://readthedocs.org/api/v3/projects/';
+            const TOKEN = '<token>';
+            const config = {
+                headers: {
+                    'Authorization': `token ${TOKEN}`
+                }
+            };
+
+            axios.get(URL, config)
+                .then(response => {
+                    console.log(response.data);
+                })
+                .catch(error => {
+                    console.error(error);
+                })
+
+Example response:
+
+.. code-block:: json
+
+    {
+        "count": 25,
+        "next": "/api/v3/projects/?limit=10&offset=10",
+        "previous": null,
+        "results": [{
+            "id": 12345,
+            "name": "Pip",
+            "slug": "pip",
+            "created": "2010-10-23T18:12:31+00:00",
+            "modified": "2018-12-11T07:21:11+00:00",
+            "language": {
+                "code": "en",
+                "name": "English"
+            },
+            "programming_language": {
+                "code": "py",
+                "name": "Python"
+            }
+        }]
+    }
+
+
 .. _dsg-installation:
 
 Installation
