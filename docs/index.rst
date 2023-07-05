@@ -180,7 +180,7 @@ Retrieve a list of all the states in Nigeria.
             
 Example response:
 
-.. code-block:: json
+.. code-block:: 
 
 {
     "message": "successfull",
@@ -290,7 +290,7 @@ Example response:
         },
 
     ]
-    }
+    
 
 
 
