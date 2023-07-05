@@ -184,13 +184,30 @@ Retrieve a list of all the states in Nigeria.
      <div id="nodejs" class="tabcontent">
        <pre><code>// Example request in Node.js</code></pre>
        <pre><code>const fetch = require('node-fetch');
-
 fetch('http://localhost:7000/api/v1/nigeria/state')
   .then(response => response.json())
   .then(data => console.log(data))
   .catch(error => console.error(error));</code></pre>
      </div>
    </div>
+
+   .. raw:: html
+
+   <script>
+     function openTab(evt, tabName) {
+       var i, tabcontent, tablinks;
+       tabcontent = document.getElementsByClassName("tabcontent");
+       for (i = 0; i < tabcontent.length; i++) {
+         tabcontent[i].style.display = "none";
+       }
+       tablinks = document.getElementsByClassName("tablink");
+       for (i = 0; i < tablinks.length; i++) {
+         tablinks[i].className = tablinks[i].className.replace(" active", "");
+       }
+       document.getElementById(tabName).style.display = "block";
+       evt.currentTarget.className += " active";
+     }
+   </script>
 
 Example response:
 
