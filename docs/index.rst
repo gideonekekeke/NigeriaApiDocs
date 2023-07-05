@@ -165,7 +165,7 @@ GET /api/v1/nigeria/state
 Retrieve a list of all the states in Nigeria.
 
 
-      .. code-block:: 
+.. code-block:: 
 
          # Example request in Node.js
          const fetch = require('node-fetch');
@@ -291,31 +291,21 @@ Example response:
 
     ]
     }
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
 
-            
-.. tabs::
 
-      .. code-block:: NodeJs
+
+    
+
+Region list
+=============
+
+GET /api/v1/nigeria/state
+---------------------
+
+Retrieve a list of all the states in Nigeria.
+
+
+.. code-block:: 
 
          # Example request in Node.js
          const fetch = require('node-fetch');
@@ -325,32 +315,10 @@ Example response:
             .then(data => console.log(data))
             .catch(error => console.error(error))
 
-Example response:
-
-.. code-block:: json
-
-    {
-        "count": 25,
-        "next": "/api/v3/projects/?limit=10&offset=10",
-        "previous": null,
-        "results": [{
-            "id": 12345,
-            "name": "Pip",
-            "slug": "pip",
-            "created": "2010-10-23T18:12:31+00:00",
-            "modified": "2018-12-11T07:21:11+00:00",
-            "language": {
-                "code": "en",
-                "name": "English"
-            },
-            "programming_language": {
-                "code": "py",
-                "name": "Python"
-            }
-        }]
-    }
-
-
+   
+   
+   
+   
 .. _dsg-installation:
 
 Replace the code examples with the appropriate usage for your API and programming language.
