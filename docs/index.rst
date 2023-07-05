@@ -29,8 +29,9 @@ GET /api/v1/nigeria/state
 ---------------------
 
 Retrieve a list of all the states in nigeria.
-.. tabs::
 
+
+.. tabs::
    .. code-tab:: bash
 
       # Example request in Bash
