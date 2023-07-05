@@ -31,56 +31,85 @@ GET /api/v3/projects/
 Retrieve a list of all the projects for the current logged-in user.
 
 .. tabs::
-    .. tab:: Bash
-        Example request:
 
-        .. code-block:: bash
+    .. code-tab:: bash
+        :title: Example request (Bash)
 
-            import requests
+        import requests
 
-            URL = 'https://readthedocs.org/api/v3/projects/'
-            TOKEN = '<token>'
-            HEADERS = {'Authorization': f'token {TOKEN}'}
+        URL = 'https://readthedocs.org/api/v3/projects/'
+        TOKEN = '<token>'
+        HEADERS = {'Authorization': f'token {TOKEN}'}
 
-            response = requests.get(URL, headers=HEADERS)
-            print(response.json())
+        response = requests.get(URL, headers=HEADERS)
+        print(response.json())
 
-    .. tab:: Python
-        Example request:
+    .. code-tab:: python
+        :title: Example request (Python)
 
-        .. code-block:: python
+        import requests
 
-            import requests
+        URL = 'https://readthedocs.org/api/v3/projects/'
+        TOKEN = '<token>'
+        HEADERS = {'Authorization': f'token {TOKEN}'}
 
-            URL = 'https://readthedocs.org/api/v3/projects/'
-            TOKEN = '<token>'
-            HEADERS = {'Authorization': f'token {TOKEN}'}
+        response = requests.get(URL, headers=HEADERS)
+        print(response.json())
 
-            response = requests.get(URL, headers=HEADERS)
-            print(response.json())
+    .. code-tab:: javascript
+        :title: Example request (JavaScript)
 
-    .. tab:: JavaScript
-        Example request:
+        const axios = require('axios');
 
-        .. code-block:: javascript
+        const URL = 'https://readthedocs.org/api/v3/projects/';
+        const TOKEN = '<token>';
+        const config = {
+            headers: {
+                'Authorization': `token ${TOKEN}`
+            }
+        };
 
-            const axios = require('axios');
+        axios.get(URL, config)
+            .then(response => {
+                console.log(response.data);
+            })
+            .catch(error => {
+                console.error(error);
+            })
 
-            const URL = 'https://readthedocs.org/api/v3/projects/';
-            const TOKEN = '<token>';
-            const config = {
-                headers: {
-                    'Authorization': `token ${TOKEN}`
-                }
-            };
 
-            axios.get(URL, config)
-                .then(response => {
-                    console.log(response.data);
-                })
-                .catch(error => {
-                    console.error(error);
-                })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Example response:
 
