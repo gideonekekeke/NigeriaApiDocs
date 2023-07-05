@@ -132,12 +132,6 @@
 
 
 
-
-
-
-
-
-
 .. _index:
 
 ****************************************
@@ -145,7 +139,7 @@ NigeriaState API Documentation
 ****************************************
 
 .. meta::
-    :description: This is the official documentation for the NigeriaState API developed by Gideon Ekeke.
+    :description: This is the official documentation for the Nigeria API developed by Gideon Ekeke.
     :keywords: NigeriaState API, Documentation
 
 .. _dsg-introduction:
@@ -170,44 +164,26 @@ GET /api/v1/nigeria/state
 
 Retrieve a list of all the states in Nigeria.
 
-.. raw:: html
+.. tabs::
 
-   <div class="tabs">
-     <button class="tablink" onclick="openTab(event, 'bash')">Bash</button>
-     <button class="tablink" onclick="openTab(event, 'nodejs')">Node.js</button>
+   .. tab:: Bash
 
-     <div id="bash" class="tabcontent">
-       <pre><code># Example request in Bash</code></pre>
-       <pre><code>curl -X GET http://localhost:7000/api/v1/nigeria/state</code></pre>
-     </div>
+      .. code-block:: bash
 
-     <div id="nodejs" class="tabcontent">
-       <pre><code>// Example request in Node.js</code></pre>
-       <pre><code>const fetch = require('node-fetch');
-fetch('http://localhost:7000/api/v1/nigeria/state')
-  .then(response => response.json())
-  .then(data => console.log(data))
-  .catch(error => console.error(error));</code></pre>
-     </div>
-   </div>
+         # Example request in Bash
+         curl -X GET http://localhost:7000/api/v1/nigeria/state
 
-   .. raw:: html
+   .. tab:: Node.js
 
-   <script>
-     function openTab(evt, tabName) {
-       var i, tabcontent, tablinks;
-       tabcontent = document.getElementsByClassName("tabcontent");
-       for (i = 0; i < tabcontent.length; i++) {
-         tabcontent[i].style.display = "none";
-       }
-       tablinks = document.getElementsByClassName("tablink");
-       for (i = 0; i < tablinks.length; i++) {
-         tablinks[i].className = tablinks[i].className.replace(" active", "");
-       }
-       document.getElementById(tabName).style.display = "block";
-       evt.currentTarget.className += " active";
-     }
-   </script>
+      .. code-block:: javascript
+
+         // Example request in Node.js
+         const fetch = require('node-fetch');
+
+         fetch('http://localhost:7000/api/v1/nigeria/state')
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.error(error))
 
 Example response:
 
@@ -241,14 +217,87 @@ Replace the code examples with the appropriate usage for your API and programmin
 
 For more details on the API endpoints and available methods, refer to the API documentation provided below.
 
-.. _dsg-api-documentation:
 
-API Documentation
-=================
 
-For detailed information on the Nigeria API, including API endpoints, request parameters, and response formats, refer to the official API documentation:
 
-- `API Documentation <https://nigeria-api-docs.com>`_
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
