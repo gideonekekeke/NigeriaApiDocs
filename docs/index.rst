@@ -1,3 +1,143 @@
+.. .. _index:
+
+.. ****************************************
+.. NigeriaState API Documentation
+.. ****************************************
+
+.. .. meta::
+..     :description: This is the official documentation for the Nigeria API developed by Gideon Ekeke.
+..     :keywords: NigeriaState API, Documentation
+
+.. .. _dsg-introduction:
+
+.. Introduction
+.. ============
+
+.. This documentation provides details on how to use the NigeriaState API, developed by Gideon Ekeke.
+.. The API allows developers to access information about Nigerian states, regions, and subregions.
+.. We provide examples, including API endpoints and their expected responses, for both visual and technical reference.
+
+.. The source code of this API is located in its `project repository on GitHub <https://github.com/gideonekekeke/NigeriaApiDocs>`_.
+
+.. If you want to use another programming language to consume this API, follow the examples provided below.
+
+
+.. State list
+.. =============
+
+.. GET /api/v1/nigeria/state
+.. ---------------------
+
+.. Retrieve a list of all the states in nigeria.
+
+.. .. tabs::
+
+..    .. tab:: Stars
+
+..       .. tabs::
+
+..          .. tab:: The Sun
+
+..             The closest star to us.
+
+..          .. tab:: Proxima Centauri
+
+..             The second closest star to us.
+
+..          .. tab:: Polaris
+
+..             The North Star.
+
+..    .. tab:: Moons
+
+..       .. tabs::
+
+..          .. tab:: The Moon
+
+..             Orbits the Earth
+
+..          .. tab:: Titan
+
+..             Orbits Jupiter
+
+
+.. .. tabs::
+..    .. tab:: bash
+
+..       # Example request in Bash
+..       import requests
+
+..       url = 'https://readthedocs.org/api/v3/projects/'
+..       token = '<token>'
+..       headers = {'Authorization': f'token {token}'}
+..       response = requests.get(url, headers=headers)
+..       print(response.json())
+
+..    .. tab:: python
+
+..       # Example request in Python
+..       import requests
+
+..       url = 'https://readthedocs.org/api/v3/projects/'
+..       token = '<token>'
+..       headers = {'Authorization': f'token {token}'}
+..       response = requests.get(url, headers=headers)
+..       print(response.json())
+
+
+
+
+
+.. Example response:
+
+.. .. code-block:: json
+
+..     {
+..         "count": 25,
+..         "next": "/api/v3/projects/?limit=10&offset=10",
+..         "previous": null,
+..         "results": [{
+..             "id": 12345,
+..             "name": "Pip",
+..             "slug": "pip",
+..             "created": "2010-10-23T18:12:31+00:00",
+..             "modified": "2018-12-11T07:21:11+00:00",
+..             "language": {
+..                 "code": "en",
+..                 "name": "English"
+..             },
+..             "programming_language": {
+..                 "code": "py",
+..                 "name": "Python"
+..             }
+..         }]
+..     }
+
+
+.. .. _dsg-installation:
+
+
+.. Replace the code examples with the appropriate usage for your API and programming language.
+
+.. For more details on the API endpoints and available methods, refer to the API documentation provided below.
+
+.. .. _dsg-api-documentation:
+
+.. API Documentation
+.. =================
+
+.. For detailed information on the Nigeria API, including API endpoints, request parameters, and response formats, refer to the official API documentation:
+
+.. - `API Documentation <https://nigeria-api-docs.com>`_
+
+
+
+
+
+
+
+
+
 .. _index:
 
 ****************************************
@@ -5,7 +145,7 @@ NigeriaState API Documentation
 ****************************************
 
 .. meta::
-    :description: This is the official documentation for the Nigeria API developed by Gideon Ekeke.
+    :description: This is the official documentation for the NigeriaState API developed by Gideon Ekeke.
     :keywords: NigeriaState API, Documentation
 
 .. _dsg-introduction:
@@ -28,114 +168,29 @@ State list
 GET /api/v1/nigeria/state
 ---------------------
 
-Retrieve a list of all the states in nigeria.
-
-.. tabs::
-
-   .. tab:: Stars
-
-      .. tabs::
-
-         .. tab:: The Sun
-
-            The closest star to us.
-
-         .. tab:: Proxima Centauri
-
-            The second closest star to us.
-
-         .. tab:: Polaris
-
-            The North Star.
-
-   .. tab:: Moons
-
-      .. tabs::
-
-         .. tab:: The Moon
-
-            Orbits the Earth
-
-         .. tab:: Titan
-
-            Orbits Jupiter
-
-
-.. tabs::
-   .. tab:: bash
-
-      # Example request in Bash
-      import requests
-
-      url = 'https://readthedocs.org/api/v3/projects/'
-      token = '<token>'
-      headers = {'Authorization': f'token {token}'}
-      response = requests.get(url, headers=headers)
-      print(response.json())
-
-   .. tab:: python
-
-      # Example request in Python
-      import requests
-
-      url = 'https://readthedocs.org/api/v3/projects/'
-      token = '<token>'
-      headers = {'Authorization': f'token {token}'}
-      response = requests.get(url, headers=headers)
-      print(response.json())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Retrieve a list of all the states in Nigeria.
+
+.. raw:: html
+
+   <div class="tabs">
+     <button class="tablink" onclick="openTab(event, 'bash')">Bash</button>
+     <button class="tablink" onclick="openTab(event, 'nodejs')">Node.js</button>
+
+     <div id="bash" class="tabcontent">
+       <pre><code># Example request in Bash</code></pre>
+       <pre><code>curl -X GET http://localhost:7000/api/v1/nigeria/state</code></pre>
+     </div>
+
+     <div id="nodejs" class="tabcontent">
+       <pre><code>// Example request in Node.js</code></pre>
+       <pre><code>const fetch = require('node-fetch');
+
+fetch('http://localhost:7000/api/v1/nigeria/state')
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error(error));</code></pre>
+     </div>
+   </div>
 
 Example response:
 
@@ -164,157 +219,6 @@ Example response:
 
 
 .. _dsg-installation:
-
-Installation
-============
-
-To use the Nigeria API in your project, you can follow the installation steps below:
-
-1. Install the required packages:
-
-   - Node.js:
-     ```
-     npm install nigeria-api-client
-     ```
-
-     or
-
-     ```
-     yarn add nigeria-api-client
-     ```
-
-   - PHP:
-     ```
-     composer require gideonekeke/nigeria-api-client
-     ```
-
-   - C#:
-     Install the NigeriaApiClient package from NuGet.
-
-2. Import the Nigeria API client in your code:
-
-   - Node.js:
-     ```javascript
-     const NigeriaApiClient = require('nigeria-api-client');
-     const nigeriaApi = new NigeriaApiClient();
-     ```
-
-   - PHP:
-     ```php
-     use NigeriaApiClient\NigeriaApiClient;
-
-     $nigeriaApi = new NigeriaApiClient();
-     ```
-
-   - C#:
-     ```csharp
-     using NigeriaApiClient;
-
-     var nigeriaApi = new NigeriaApiClient();
-     ```
-
-   .. code-block:: code-snippet
-
-   :language: python
-   :caption: Python
-
-   from nigeria_api_client import NigeriaApiClient
-
-   nigeria_api = NigeriaApiClient()
-   state = nigeria_api.get_single_state('Lagos')
-   states = nigeria_api.get_states_by_region('South West')
-
-.. code-block:: code-snippet
-
-   :language: javascript
-   :caption: JavaScript (Node.js)
-
-   const NigeriaApiClient = require('nigeria-api-client');
-
-   const nigeriaApi = new NigeriaApiClient();
-   const state = nigeriaApi.getSingleState('Lagos');
-   const states = nigeriaApi.getStatesByRegion('South West');
-
-.. code-block:: code-snippet
-
-   :language: php
-   :caption: PHP
-
-   use NigeriaApiClient\NigeriaApiClient;
-
-   $nigeriaApi = new NigeriaApiClient();
-   $state = $nigeriaApi->getSingleState('Lagos');
-   $states = $nigeriaApi->getStatesByRegion('South West');
-
-.. code-block:: code-snippet
-
-   :language: csharp
-   :caption: C#
-
-   using NigeriaApiClient;
-
-   var nigeriaApi = new NigeriaApiClient();
-   var state = nigeriaApi.GetSingleState("Lagos");
-   var states = nigeriaApi.GetStatesByRegion("South West");
-
-
-   ```python
-   # Python
-   from nigeria_api_client import NigeriaApiClient
-
-   nigeria_api = NigeriaApiClient()
-   state = nigeria_api.get_single_state('Lagos')
-   states = nigeria_api.get_states_by_region('South West')
-
-3. Start making requests to the API using the provided methods.
-
-   - Node.js:
-     ```javascript
-     // Get all states
-     nigeriaApi.getAllStates()
-       .then(states => console.log(states))
-       .catch(error => console.error(error));
-
-     // Get a single state by name
-     nigeriaApi.getSingleState('Lagos')
-       .then(state => console.log(state))
-       .catch(error => console.error(error));
-
-     // Get all states in a specific region
-     nigeriaApi.getStatesByRegion('South West')
-       .then(states => console.log(states))
-       .catch(error => console.error(error));
-     ```
-
-   - PHP:
-     ```php
-     // Get all states
-     $states = $nigeriaApi->getAllStates();
-     print_r($states);
-
-     // Get a single state by name
-     $state = $nigeriaApi->getSingleState('Lagos');
-     print_r($state);
-
-     // Get all states in a specific region
-     $states = $nigeriaApi->getStatesByRegion('South West');
-     print_r($states);
-     ```
-
-   - C#:
-     ```csharp
-     // Get all states
-     var states = nigeriaApi.GetAllStates();
-     Console.WriteLine(states);
-
-     // Get a single state by name
-     var state = nigeriaApi.GetSingleState("Lagos");
-     Console.WriteLine(state);
-
-     // Get all states in a specific region
-     var states = nigeriaApi.GetStatesByRegion("South West");
-     Console.WriteLine(states);
-     ```
 
 Replace the code examples with the appropriate usage for your API and programming language.
 
