@@ -44,11 +44,12 @@ Retrieve a list of all the states in Nigeria.
 
 
 
-            
+
+ Example Response           
 .. code-block:: json
 
     {
- "message": "successfull",
+    "message": "successfull",
     "resultCount": 37,
     "cost": 0,
     "result": [
@@ -186,9 +187,11 @@ Retrieve a singlelist of all a states in Nigeria.
         .then(data => console.log(data))
         .catch(error => console.error(error))
    
-   
 
+ Example Response  
 .. code-block:: json
+
+
 
     {
     "message": "successfull",
@@ -250,10 +253,14 @@ Retrieve a region of all a states in Nigeria.
         .then(response => response.json())
         .then(data => console.log(data))
         .catch(error => console.error(error))
-   
 
+        
+   
+Example Response
 .. code-block:: json
+
    {
+
     "message": "successfull",
     "resultCount": 7,
     "cost": 0,
