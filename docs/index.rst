@@ -71,6 +71,16 @@ To use the Nigeria API in your project, you can follow the installation steps be
      var nigeriaApi = new NigeriaApiClient();
      ```
 
+     .. code-block:: code-snippet
+
+   ```python
+   # Python
+   from nigeria_api_client import NigeriaApiClient
+
+   nigeria_api = NigeriaApiClient()
+   state = nigeria_api.get_single_state('Lagos')
+   states = nigeria_api.get_states_by_region('South West')
+
 3. Start making requests to the API using the provided methods.
 
    - Node.js:
