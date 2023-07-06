@@ -14,12 +14,6 @@ NigeriaState API Documentation
 Introduction
 ============
 
-.. figure:: https://res.cloudinary.com/giddy/image/upload/v1663772419/289774567_4882999171823575_4087110870167771032_n_dzcsxq.jpg
-   :alt: Gideon Ekeke 
-   :width: 400px
-   :Height: 200px
-   :align: center
-
 This documentation provides details on how to use the NigeriaState API, developed by **Gideon Ekeke** (FullStack Engineer)MERN.
 The API allows developers to access information about Nigerian states, regions, and subregions.
 We provide examples, including API endpoints and their expected responses, for both visual and technical reference.
