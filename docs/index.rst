@@ -40,7 +40,7 @@ Retrieve a list of all the states in Nigeria.
 
     const fetch = require('node-fetch');
 
-    fetch('http://localhost:7000/api/v1/nigeria/states')
+    fetch('https://nigerastateapi.onrender.com/api/v1/nigeria/states')
         .then(response => response.json())
         .then(data => console.log(data))
         .catch(error => console.error(error))
@@ -174,7 +174,7 @@ Retrieve a single list of a state in Nigeria.
 
     const fetch = require('node-fetch');
 
-    fetch('http://localhost:7000/api/v1/nigeria/state', {
+    fetch('https://nigerastateapi.onrender.com/api/v1/nigeria/state', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -238,7 +238,7 @@ Retrieve a region of all states in Nigeria.
 
     const fetch = require('node-fetch');
 
-    fetch('http://localhost:7000/api/v1/nigeria/states/region', {
+    fetch('https://nigerastateapi.onrender.com/api/v1/nigeria/states/region', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
