@@ -14,11 +14,19 @@ NigeriaState API Documentation
 Introduction
 ============
 
+.. figure:: path/to/your/image.png
+   :alt: NigeriaState API
+   :width: 400px
+   :align: center
+
 This documentation provides details on how to use the NigeriaState API, developed by **Gideon Ekeke** (FullStack Engineer)MERN.
 The API allows developers to access information about Nigerian states, regions, and subregions.
 We provide examples, including API endpoints and their expected responses, for both visual and technical reference.
 
 The source code of this API is located in its `project repository on GitHub <https://github.com/gideonekekeke/NigeriaApiDocs>`_.
+
+
+If you want to use another programming language to consume this API, copy the following code and paste on chatGPT.
 
 State list
 ==========
