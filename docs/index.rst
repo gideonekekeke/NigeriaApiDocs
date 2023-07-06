@@ -180,7 +180,7 @@ Retrieve a single list of a state in Nigeria.
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            id: 'your-state-id'
+            id: 'abia'
         })
     })
         .then(response => response.json())

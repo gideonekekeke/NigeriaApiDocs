@@ -3,7 +3,7 @@ import stateData from "../utils/StateData.json";
 
 export const getAllstates = async (req: Request, res: Response) => {
 	try {
-		const getAll = await stateData.map((el) => {
+		const getAll = await stateData.map((el:any) => {
 			return el;
 		});
 
@@ -24,7 +24,7 @@ export const getSingleState = async (req: Request, res: Response) => {
 	try {
 		const { id } = req.body;
 
-		const regions = stateData.find((state) => state.id === id);
+		const regions = stateData.find((state:any) => state.id === id);
 		if (!regions) {
 			return res.status(404).json({ error: "State not found" });
 		}
@@ -45,7 +45,7 @@ export const getStateRegions = async (req: Request, res: Response) => {
 	try {
 		const { region } = req.body;
 
-		const Stateregions = stateData.filter((state) => state.region === region);
+		const Stateregions = stateData.filter((state:any) => state.region === region);
 		if (!Stateregions) {
 			return res.status(404).json({ error: "Region not found" });
 		}
