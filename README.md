@@ -18,7 +18,7 @@ Install my-project with npm
 
 ## Link
 
-- [https://nigeriaapidocs.readthedocs.io(https://nigeriaapidocs.readthedocs.io/)
+- https://nigeriaapidocs.readthedocs.io
     
 ## Authors
 
