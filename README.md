@@ -13,7 +13,8 @@ Install my-project with npm
 
 ```bash
   npm install
-npm run build
+  npm run build
+  https://nigeriaapidocs.readthedocs.io/
 ```
     
 ## Authors
