@@ -14,8 +14,11 @@ Install my-project with npm
 ```bash
   npm install
   npm run build
-  https://nigeriaapidocs.readthedocs.io/
 ```
+
+## Link
+
+- [https://nigeriaapidocs.readthedocs.io(https://nigeriaapidocs.readthedocs.io/)
     
 ## Authors
 
