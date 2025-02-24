@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nigeriaapidocs.readthedocs.io/sitemap.xml
