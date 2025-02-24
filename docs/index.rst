@@ -7,7 +7,7 @@ NigeriaState API Documentation
 
 .. meta::
     :description: This is the official documentation for the Nigeria API developed by **Gideon Ekeke** (FullStack Engineer)MERN.
-    :keywords: NigeriaState API, Documentation
+    :keywords: Nigeria API, states API, regions API, Nigerian geography, Nigeria geopolitical zones
 
 .. _dsg-introduction:
 

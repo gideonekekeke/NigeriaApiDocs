@@ -4,9 +4,27 @@
 		"name": "Abia",
 		"region": "South East",
 		"capital": "Umuahia",
-		"deputy": "Ude Oko Chukwu",
-		"governor": "Okezie Ikpeazu",
+		"deputy": "Ikechukwu Emetu",
+		"governor": "Alex Otti",
 		"slogan": "God's Own State",
+		"created": "1991-08-27",
+		"population": "3727347",
+		"area": "6320",
+		"website": "www.abiastate.gov.ng",
+		"coordinates": {
+			"latitude": "5.4527",
+			"longitude": "7.5248"
+		},
+		"languages": [
+			"Igbo",
+			"English"
+		],
+		"industries": [
+			"Agriculture",
+			"Oil and Gas",
+			"Manufacturing",
+			"Commerce"
+		],
 		"subRegion": [
 			"Aba North",
 			"Aba South",
@@ -18,12 +36,12 @@
 			"Isuikwuato",
 			"Obi Ngwa",
 			"Ohafia",
-			"Osisioma",
+			"Osisioma Ngwa",
 			"Ugwunagbo",
 			"Ukwa East",
 			"Ukwa West",
 			"Umuahia North",
-			"muahia South",
+			"Umuahia South",
 			"Umu Nneochi"
 		]
 	},
@@ -32,19 +50,40 @@
 		"name": "Adamawa",
 		"region": "North East",
 		"capital": "Yola",
-		"deputy": "Martin Babale",
-		"governor": "Bindo Jibrilla",
+		"deputy": "Kaletapwa Farauta",
+		"governor": "Ahmadu Umaru Fintiri",
 		"slogan": "Land Of Beauty, Sunshine And Hospitality",
+		"created": "1991-08-27",
+		"population": "4248436",
+		"area": "36917",
+		"website": "www.adamawastate.gov.ng",
+		"coordinates": {
+			"latitude": "9.3265",
+			"longitude": "12.3984"
+		},
+		"languages": [
+			"Fulfulde",
+			"Hausa",
+			"English",
+			"Bwatiye",
+			"Lunguda"
+		],
+		"industries": [
+			"Agriculture",
+			"Livestock",
+			"Mining",
+			"Tourism"
+		],
 		"subRegion": [
 			"Demsa",
-			"Fufure",
+			"Fufore",
 			"Ganye",
 			"Gayuk",
 			"Gombi",
-			"Grie",
+			"Girei",
 			"Hong",
 			"Jada",
-			"Larmurde",
+			"Lamurde",
 			"Madagali",
 			"Maiha",
 			"Mayo Belwa",
@@ -64,9 +103,30 @@
 		"name": "Akwa Ibom",
 		"region": "South South",
 		"capital": "Uyo",
-		"deputy": "Moses Frank Ekpo",
-		"governor": "Udom Emmanuel",
+		"deputy": "Akon Eyakenyi",
+		"governor": "Umo Eno",
 		"slogan": "Land Of Promise",
+		"created": "1987-09-23",
+		"population": "5482177",
+		"area": "7081",
+		"website": "www.akwaibomstate.gov.ng",
+		"coordinates": {
+			"latitude": "4.9057",
+			"longitude": "7.8537"
+		},
+		"languages": [
+			"Ibibio",
+			"Annang",
+			"Oron",
+			"Ekid",
+			"English"
+		],
+		"industries": [
+			"Oil and Gas",
+			"Agriculture",
+			"Manufacturing",
+			"Tourism"
+		],
 		"subRegion": [
 			"Abak",
 			"Eastern Obolo",
@@ -106,9 +166,27 @@
 		"name": "Anambra",
 		"region": "South East",
 		"capital": "Awka",
-		"deputy": "Nkem Okeke",
-		"governor": "Willie Obiano",
+		"deputy": "Gilbert Onyekachukwu Ibezim",
+		"governor": "Charles Chukwuma Soludo",
 		"slogan": "Home For All",
+		"created": "1991-08-27",
+		"population": "5527809",
+		"area": "4844",
+		"website": "www.anambrastate.gov.ng",
+		"coordinates": {
+			"latitude": "6.2209",
+			"longitude": "6.9370"
+		},
+		"languages": [
+			"Igbo",
+			"English"
+		],
+		"industries": [
+			"Commerce",
+			"Manufacturing",
+			"Agriculture",
+			"Oil and Gas"
+		],
 		"subRegion": [
 			"Aguata",
 			"Anambra East",
@@ -138,9 +216,30 @@
 		"name": "Bauchi",
 		"region": "North East",
 		"capital": "Bauchi",
-		"deputy": "Baba Tela",
-		"governor": "Bala Muhammed",
+		"deputy": "Mohammed Auwal Jatau",
+		"governor": "Bala Mohammed",
 		"slogan": "Pearl Of Tourism",
+		"created": "1976-02-03",
+		"population": "6537314",
+		"area": "45837",
+		"website": "www.bauchistate.gov.ng",
+		"coordinates": {
+			"latitude": "10.3103",
+			"longitude": "9.8451"
+		},
+		"languages": [
+			"Hausa",
+			"Fulfulde",
+			"English",
+			"Jarawa",
+			"Sayawa"
+		],
+		"industries": [
+			"Agriculture",
+			"Mining",
+			"Tourism",
+			"Manufacturing"
+		],
 		"subRegion": [
 			"Alkaleri",
 			"Bauchi",
@@ -152,16 +251,16 @@
 			"Ganjuwa",
 			"Giade",
 			"Itas-Gadau",
-			"Jama are",
+			"Jamaare",
 			"Katagum",
 			"Kirfi",
 			"Misau",
 			"Ningi",
 			"Shira",
 			"Tafawa Balewa",
-			" Toro",
-			" Warji",
-			" Zaki"
+			"Toro",
+			"Warji",
+			"Zaki"
 		]
 	},
 	{
@@ -170,12 +269,32 @@
 		"region": "South South",
 		"capital": "Yenagoa",
 		"deputy": "Lawrence Ewhrudjakpo",
-		"governor": "Duoye Diri",
+		"governor": "Douye Diri",
 		"slogan": "Glory Of All Lands",
+		"created": "1996-10-01",
+		"population": "2277961",
+		"area": "10773",
+		"website": "www.bayelsa.gov.ng",
+		"coordinates": {
+			"latitude": "4.7719",
+			"longitude": "6.0699"
+		},
+		"languages": [
+			"Ijaw",
+			"Epie-Atissa",
+			"Nembe",
+			"English"
+		],
+		"industries": [
+			"Oil and Gas",
+			"Fishing",
+			"Agriculture",
+			"Tourism"
+		],
 		"subRegion": [
 			"Brass",
 			"Ekeremor",
-			"Kolokuma Opokuma",
+			"Kolokuma/Opokuma",
 			"Nembe",
 			"Ogbia",
 			"Sagbama",
@@ -188,9 +307,29 @@
 		"name": "Benue",
 		"region": "North Central",
 		"capital": "Makurdi",
-		"deputy": "Benson Abounu",
-		"governor": "Samuel Ortom",
+		"deputy": "Sam Ode",
+		"governor": "Hyacinth Alia",
 		"slogan": "The Food Basket Of The Nation",
+		"created": "1976-02-03",
+		"population": "5741815",
+		"area": "34059",
+		"website": "www.benuestate.gov.ng",
+		"coordinates": {
+			"latitude": "7.3369",
+			"longitude": "8.7404"
+		},
+		"languages": [
+			"Tiv",
+			"Idoma",
+			"Igede",
+			"English"
+		],
+		"industries": [
+			"Agriculture",
+			"Food Processing",
+			"Mining",
+			"Tourism"
+		],
 		"subRegion": [
 			"Agatu",
 			"Apa",
@@ -223,8 +362,29 @@
 		"region": "North East",
 		"capital": "Maiduguri",
 		"deputy": "Umar Usman Kadafur",
-		"governor": "Babagana Umara",
+		"governor": "Babagana Umara Zulum",
 		"slogan": "Home Of Peace",
+		"created": "1976-02-03",
+		"population": "5860183",
+		"area": "70898",
+		"website": "www.bornostate.gov.ng",
+		"coordinates": {
+			"latitude": "11.8333",
+			"longitude": "13.1500"
+		},
+		"languages": [
+			"Kanuri",
+			"Hausa",
+			"Shuwa Arabic",
+			"Marghi",
+			"English"
+		],
+		"industries": [
+			"Agriculture",
+			"Livestock",
+			"Fishing",
+			"Commerce"
+		],
 		"subRegion": [
 			"Abadam",
 			"Askira-Uba",
@@ -260,9 +420,30 @@
 		"name": "Cross River",
 		"region": "South South",
 		"capital": "Calabar",
-		"deputy": "Ivara Esu",
-		"governor": "Benedict Ayade",
+		"deputy": "Peter Odey",
+		"governor": "Bassey Otu",
 		"slogan": "The Nation's Paradise",
+		"created": "1967-05-27",
+		"population": "3866269",
+		"area": "20156",
+		"website": "www.crossriverstate.gov.ng",
+		"coordinates": {
+			"latitude": "5.8702",
+			"longitude": "8.5988"
+		},
+		"languages": [
+			"Efik",
+			"Ejagham",
+			"Bekwarra",
+			"Bette",
+			"English"
+		],
+		"industries": [
+			"Tourism",
+			"Agriculture",
+			"Forestry",
+			"Manufacturing"
+		],
 		"subRegion": [
 			"Abi",
 			"Akamkpa",
@@ -280,19 +461,40 @@
 			"Obudu",
 			"Odukpani",
 			"Ogoja",
-			"Yakuur",
+			"Yakurr",
 			"Yala"
 		]
 	},
 	{
 		"id": "delta",
 		"name": "Delta",
-		"uri": "https://api.facts.ng/v1/states/delta",
 		"region": "South South",
 		"capital": "Asaba",
-		"deputy": "Kingsley Otuaro",
-		"governor": "Ifeanyi Okowa",
+		"deputy": "Monday Onyeme",
+		"governor": "Sheriff Oborevwori",
 		"slogan": "The Big Heart",
+		"created": "1991-08-27",
+		"population": "5663362",
+		"area": "17698",
+		"website": "www.deltastate.gov.ng",
+		"coordinates": {
+			"latitude": "5.5322",
+			"longitude": "5.8983"
+		},
+		"languages": [
+			"Urhobo",
+			"Isoko",
+			"Ijaw",
+			"Ika",
+			"Itsekiri",
+			"English"
+		],
+		"industries": [
+			"Oil and Gas",
+			"Agriculture",
+			"Manufacturing",
+			"Tourism"
+		],
 		"subRegion": [
 			"Aniocha North",
 			"Aniocha South",
@@ -326,9 +528,30 @@
 		"name": "Ebonyi",
 		"region": "South East",
 		"capital": "Abakaliki",
-		"deputy": "Kelechi Igwe",
-		"governor": "Dave Umahi",
+		"deputy": "Patricia Obila",
+		"governor": "Francis Nwifuru",
 		"slogan": "Salt Of The Nation",
+		"created": "1996-10-01",
+		"population": "2880383",
+		"area": "5935",
+		"website": "www.ebonyistate.gov.ng",
+		"coordinates": {
+			"latitude": "6.2649",
+			"longitude": "8.0137"
+		},
+		"languages": [
+			"Igbo",
+			"English",
+			"Izzi",
+			"Ezza",
+			"Ikwo"
+		],
+		"industries": [
+			"Agriculture",
+			"Mining",
+			"Salt Processing",
+			"Manufacturing"
+		],
 		"subRegion": [
 			"Abakaliki",
 			"Afikpo North",
@@ -353,6 +576,26 @@
 		"deputy": "Philip Shuaibu",
 		"governor": "Godwin Obaseki",
 		"slogan": "The Heartbeat Of The Nation",
+		"created": "1991-08-27",
+		"population": "4235595",
+		"area": "17802",
+		"website": "www.edostate.gov.ng",
+		"coordinates": {
+			"latitude": "6.5438",
+			"longitude": "5.8987"
+		},
+		"languages": [
+			"Edo",
+			"Esan",
+			"Etsako",
+			"English"
+		],
+		"industries": [
+			"Agriculture",
+			"Manufacturing",
+			"Oil and Gas",
+			"Tourism"
+		],
 		"subRegion": [
 			"Akoko-Edo",
 			"Egor",
@@ -379,9 +622,28 @@
 		"name": "Ekiti",
 		"region": "South West",
 		"capital": "Ado Ekiti",
-		"deputy": "Adebisi Adegboyega Egbeyemi",
-		"governor": "Kayode Fayemi",
+		"deputy": "Monisade Afuye",
+		"governor": "Biodun Oyebanji",
 		"slogan": "Fountain Of Knowledge",
+		"created": "1996-10-01",
+		"population": "3270798",
+		"area": "6353",
+		"website": "www.ekitistate.gov.ng",
+		"coordinates": {
+			"latitude": "7.7190",
+			"longitude": "5.3110"
+		},
+		"languages": [
+			"Yoruba",
+			"English",
+			"Ekiti"
+		],
+		"industries": [
+			"Agriculture",
+			"Education",
+			"Tourism",
+			"Mining"
+		],
 		"subRegion": [
 			"Ado Ekiti",
 			"Efon",
@@ -406,9 +668,27 @@
 		"name": "Enugu",
 		"region": "South East",
 		"capital": "Enugu",
-		"deputy": "Cecilia Ezeilo",
-		"governor": "Ifeanyi Ugwuanyi",
+		"deputy": "Barr. Ifeanyi Ossai",
+		"governor": "Peter Mbah",
 		"slogan": "Coal City State",
+		"created": "1991-08-27",
+		"population": "4411119",
+		"area": "7161",
+		"website": "www.enugustate.gov.ng",
+		"coordinates": {
+			"latitude": "6.4584",
+			"longitude": "7.5464"
+		},
+		"languages": [
+			"Igbo",
+			"English"
+		],
+		"industries": [
+			"Coal Mining",
+			"Agriculture",
+			"Manufacturing",
+			"Tourism"
+		],
 		"subRegion": [
 			"Aninri",
 			"Awgu",
@@ -437,6 +717,27 @@
 		"deputy": "Manassah Daniel Jatau",
 		"governor": "Muhammad Inuwa Yahaya",
 		"slogan": "Jewel In The Savannah",
+		"created": "1996-10-01",
+		"population": "3257000",
+		"area": "18768",
+		"website": "www.gombestate.gov.ng",
+		"coordinates": {
+			"latitude": "10.2904",
+			"longitude": "11.1728"
+		},
+		"languages": [
+			"Fulfulde",
+			"Hausa",
+			"Tangale",
+			"Waja",
+			"English"
+		],
+		"industries": [
+			"Agriculture",
+			"Mining",
+			"Manufacturing",
+			"Tourism"
+		],
 		"subRegion": [
 			"Akko",
 			"Balanga",
@@ -459,6 +760,24 @@
 		"deputy": "Placid Njoku",
 		"governor": "Hope Uzodinma",
 		"slogan": "The Eastern Heartland",
+		"created": "1976-02-03",
+		"population": "5408756",
+		"area": "5530",
+		"website": "www.imostate.gov.ng",
+		"coordinates": {
+			"latitude": "5.4927",
+			"longitude": "7.0359"
+		},
+		"languages": [
+			"Igbo",
+			"English"
+		],
+		"industries": [
+			"Agriculture",
+			"Manufacturing",
+			"Oil and Gas",
+			"Tourism"
+		],
 		"subRegion": [
 			"Aboh Mbaise",
 			"Ahiazu Mbaise",
@@ -495,8 +814,27 @@
 		"region": "North West",
 		"capital": "Dutse",
 		"deputy": "Umar Namadi",
-		"governor": "Badaru Abubakar",
+		"governor": "Umar Namadi",
 		"slogan": "The New World",
+		"created": "1991-08-27",
+		"population": "5828163",
+		"area": "23154",
+		"website": "www.jigawastate.gov.ng",
+		"coordinates": {
+			"latitude": "12.2280",
+			"longitude": "9.5616"
+		},
+		"languages": [
+			"Hausa",
+			"Fulfulde",
+			"English"
+		],
+		"industries": [
+			"Agriculture",
+			"Mining",
+			"Manufacturing",
+			"Commerce"
+		],
 		"subRegion": [
 			"Auyo",
 			"Babura",
@@ -533,8 +871,29 @@
 		"region": "North West",
 		"capital": "Kaduna",
 		"deputy": "Hadiza Sabuwa Balarabe",
-		"governor": "Nasir El-Rufai",
+		"governor": "Uba Sani",
 		"slogan": "Centre Of Learning",
+		"created": "1967-05-27",
+		"population": "8252366",
+		"area": "46053",
+		"website": "www.kadunastate.gov.ng",
+		"coordinates": {
+			"latitude": "10.5167",
+			"longitude": "7.4333"
+		},
+		"languages": [
+			"Hausa",
+			"English",
+			"Gbagyi",
+			"Adara",
+			"Atyap"
+		],
+		"industries": [
+			"Agriculture",
+			"Manufacturing",
+			"Mining",
+			"Textiles"
+		],
 		"subRegion": [
 			"Birnin Gwari",
 			"Chikun",
@@ -566,9 +925,28 @@
 		"name": "Kano",
 		"region": "North West",
 		"capital": "Kano",
-		"deputy": "Hafiz Abubakar",
-		"governor": "Abdullahi Ganduje",
+		"deputy": "Gawuna Nasiru Yusuf",
+		"governor": "Abba Kabir Yusuf",
 		"slogan": "Centre Of Commerce",
+		"created": "1967-05-27",
+		"population": "13076892",
+		"area": "20131",
+		"website": "www.kanostate.gov.ng",
+		"coordinates": {
+			"latitude": "11.7574",
+			"longitude": "8.5892"
+		},
+		"languages": [
+			"Hausa",
+			"Fulfulde",
+			"English"
+		],
+		"industries": [
+			"Commerce",
+			"Agriculture",
+			"Manufacturing",
+			"Textiles"
+		],
 		"subRegion": [
 			"Ajingi",
 			"Albasu",
@@ -621,9 +999,28 @@
 		"name": "Katsina",
 		"region": "North West",
 		"capital": "Katsina",
-		"deputy": "Mannir Yakubu",
-		"governor": "Aminu Masari",
+		"deputy": "Faruq Lawal Jobe",
+		"governor": "Dikko Umar Radda",
 		"slogan": "Home Of Hospitality",
+		"created": "1987-09-23",
+		"population": "7831319",
+		"area": "24192",
+		"website": "www.katsinastate.gov.ng",
+		"coordinates": {
+			"latitude": "12.9854",
+			"longitude": "7.6201"
+		},
+		"languages": [
+			"Hausa",
+			"Fulfulde",
+			"English"
+		],
+		"industries": [
+			"Agriculture",
+			"Manufacturing",
+			"Mining",
+			"Commerce"
+		],
 		"subRegion": [
 			"Bakori",
 			"Batagarawa",
@@ -666,9 +1063,28 @@
 		"name": "Kebbi",
 		"region": "North West",
 		"capital": "Birnin Kebbi",
-		"deputy": "Samaila Dabai Yombe",
-		"governor": "Atiku Bagudu",
+		"deputy": "Umar Abubakar Tafida",
+		"governor": "Nasir Idris",
 		"slogan": "Land Of Equity",
+		"created": "1991-08-27",
+		"population": "4440050",
+		"area": "36800",
+		"website": "www.kebbistate.gov.ng",
+		"coordinates": {
+			"latitude": "11.4942",
+			"longitude": "4.1986"
+		},
+		"languages": [
+			"Hausa",
+			"Fulfulde",
+			"English"
+		],
+		"industries": [
+			"Agriculture",
+			"Fishing",
+			"Mining",
+			"Commerce"
+		],
 		"subRegion": [
 			"Aleiro",
 			"Arewa Dandi",
@@ -698,9 +1114,29 @@
 		"name": "Kogi",
 		"region": "North Central",
 		"capital": "Lokoja",
-		"deputy": "Edward Onoja",
-		"governor": "Yahaya Bello",
+		"deputy": "Joel Salifu",
+		"governor": "Ahmed Usman Ododo",
 		"slogan": "The Confluence State",
+		"created": "1991-08-27",
+		"population": "4473490",
+		"area": "29833",
+		"website": "www.kogistate.gov.ng",
+		"coordinates": {
+			"latitude": "7.8000",
+			"longitude": "6.7333"
+		},
+		"languages": [
+			"Igala",
+			"Ebira",
+			"Yoruba",
+			"English"
+		],
+		"industries": [
+			"Agriculture",
+			"Mining",
+			"Manufacturing",
+			"Tourism"
+		],
 		"subRegion": [
 			"Adavi",
 			"Ajaokuta",
@@ -733,6 +1169,26 @@
 		"deputy": "Kayode Alabi",
 		"governor": "Abdulrahman Abdulrazaq",
 		"slogan": "The Place Of Harmony",
+		"created": "1967-05-27",
+		"population": "3192893",
+		"area": "36825",
+		"website": "www.kwarastate.gov.ng",
+		"coordinates": {
+			"latitude": "8.4799",
+			"longitude": "4.5418"
+		},
+		"languages": [
+			"Yoruba",
+			"Nupe",
+			"Bariba",
+			"English"
+		],
+		"industries": [
+			"Agriculture",
+			"Manufacturing",
+			"Mining",
+			"Commerce"
+		],
 		"subRegion": [
 			"Asa",
 			"Baruten",
@@ -760,6 +1216,26 @@
 		"deputy": "Femi Hamzat",
 		"governor": "Babajide Sanwo-Olu",
 		"slogan": "Centre Of Excellence",
+		"created": "1967-05-27",
+		"population": "14862111",
+		"area": "3577",
+		"website": "www.lagosstate.gov.ng",
+		"coordinates": {
+			"latitude": "6.5244",
+			"longitude": "3.3792"
+		},
+		"languages": [
+			"Yoruba",
+			"English",
+			"Egun",
+			"Awori"
+		],
+		"industries": [
+			"Commerce",
+			"Manufacturing",
+			"Financial Services",
+			"Technology"
+		],
 		"subRegion": [
 			"Agege",
 			"Ajeromi-Ifelodun",
@@ -791,6 +1267,26 @@
 		"deputy": "Emmanuel Agbadu Akabe",
 		"governor": "Abdullahi Sule",
 		"slogan": "Nigeria's Home Of Solid Minerals",
+		"created": "1996-10-01",
+		"population": "2523395",
+		"area": "27117",
+		"website": "www.nasarawastate.gov.ng",
+		"coordinates": {
+			"latitude": "8.5000",
+			"longitude": "8.2667"
+		},
+		"languages": [
+			"Hausa",
+			"Eggon",
+			"Alago",
+			"English"
+		],
+		"industries": [
+			"Mining",
+			"Agriculture",
+			"Manufacturing",
+			"Tourism"
+		],
 		"subRegion": [
 			"Akwanga",
 			"Awe",
@@ -812,9 +1308,29 @@
 		"name": "Niger",
 		"region": "North Central",
 		"capital": "Minna",
-		"deputy": "Ahmed Muhammad Ketso",
-		"governor": "Abubakar Sani Bello",
+		"deputy": "Yakubu Garba",
+		"governor": "Mohammed Umaru Bago",
 		"slogan": "The Power State",
+		"created": "1976-02-03",
+		"population": "5556247",
+		"area": "76363",
+		"website": "www.nigerstate.gov.ng",
+		"coordinates": {
+			"latitude": "9.9309",
+			"longitude": "5.5988"
+		},
+		"languages": [
+			"Nupe",
+			"Hausa",
+			"Gbagyi",
+			"English"
+		],
+		"industries": [
+			"Agriculture",
+			"Power Generation",
+			"Mining",
+			"Tourism"
+		],
 		"subRegion": [
 			"Agaie",
 			"Agwara",
@@ -851,6 +1367,25 @@
 		"deputy": "Noimot Salako Oyedele",
 		"governor": "Dapo Abiodun",
 		"slogan": "The Gateway State",
+		"created": "1976-02-03",
+		"population": "5217716",
+		"area": "16981",
+		"website": "www.ogunstate.gov.ng",
+		"coordinates": {
+			"latitude": "7.0000",
+			"longitude": "3.3500"
+		},
+		"languages": [
+			"Yoruba",
+			"Egun",
+			"English"
+		],
+		"industries": [
+			"Manufacturing",
+			"Agriculture",
+			"Mining",
+			"Commerce"
+		],
 		"subRegion": [
 			"Abeokuta North",
 			"Abeokuta South",
@@ -879,9 +1414,28 @@
 		"name": "Ondo",
 		"region": "South West",
 		"capital": "Akure",
-		"deputy": "Agboola Ajayi",
-		"governor": "Rotimi Akeredolu",
+		"deputy": "Lucky Aiyedatiwa",
+		"governor": "Lucky Aiyedatiwa",
 		"slogan": "Sunshine State",
+		"created": "1976-02-03",
+		"population": "4671695",
+		"area": "15500",
+		"website": "www.ondostate.gov.ng",
+		"coordinates": {
+			"latitude": "7.2500",
+			"longitude": "5.2000"
+		},
+		"languages": [
+			"Yoruba",
+			"Ijaw",
+			"English"
+		],
+		"industries": [
+			"Agriculture",
+			"Oil and Gas",
+			"Manufacturing",
+			"Tourism"
+		],
 		"subRegion": [
 			"Akoko North-East",
 			"Akoko North-West",
@@ -908,9 +1462,27 @@
 		"name": "Osun",
 		"region": "South West",
 		"capital": "Osogbo",
-		"deputy": "Gboyega Alabi",
-		"governor": "Adegboyega Oyetola",
+		"deputy": "Kola Adewusi",
+		"governor": "Ademola Adeleke",
 		"slogan": "State Of The Living Spring",
+		"created": "1991-08-27",
+		"population": "4705589",
+		"area": "9251",
+		"website": "www.osunstate.gov.ng",
+		"coordinates": {
+			"latitude": "7.5629",
+			"longitude": "4.5200"
+		},
+		"languages": [
+			"Yoruba",
+			"English"
+		],
+		"industries": [
+			"Agriculture",
+			"Mining",
+			"Manufacturing",
+			"Tourism"
+		],
 		"subRegion": [
 			"Atakunmosa East",
 			"Atakunmosa West",
@@ -949,9 +1521,27 @@
 		"name": "Oyo",
 		"region": "South West",
 		"capital": "Ibadan",
-		"deputy": "Rauf Aderemi Olaniyan",
-		"governor": "Oluwaseyi Makinde",
+		"deputy": "Bayo Lawal",
+		"governor": "Seyi Makinde",
 		"slogan": "Pace Setter",
+		"created": "1976-02-03",
+		"population": "7840864",
+		"area": "28454",
+		"website": "www.oyostate.gov.ng",
+		"coordinates": {
+			"latitude": "8.1574",
+			"longitude": "3.6147"
+		},
+		"languages": [
+			"Yoruba",
+			"English"
+		],
+		"industries": [
+			"Agriculture",
+			"Commerce",
+			"Manufacturing",
+			"Tourism"
+		],
 		"subRegion": [
 			"Afijio",
 			"Akinyele",
@@ -993,9 +1583,30 @@
 		"name": "Plateau",
 		"region": "North Central",
 		"capital": "Jos",
-		"deputy": "Sonni Gwanle Tyoden",
-		"governor": "Simon Lalong",
+		"deputy": "Pam Butmang",
+		"governor": "Caleb Mutfwang",
 		"slogan": "Home Of Peace And Tourism",
+		"created": "1976-02-03",
+		"population": "4200442",
+		"area": "30913",
+		"website": "www.plateaustate.gov.ng",
+		"coordinates": {
+			"latitude": "9.2182",
+			"longitude": "9.5179"
+		},
+		"languages": [
+			"Berom",
+			"Ngas",
+			"Mwaghavul",
+			"Hausa",
+			"English"
+		],
+		"industries": [
+			"Mining",
+			"Agriculture",
+			"Tourism",
+			"Manufacturing"
+		],
 		"subRegion": [
 			"Bokkos",
 			"Barkin Ladi",
@@ -1021,9 +1632,30 @@
 		"name": "Rivers",
 		"region": "South South",
 		"capital": "Port Harcourt",
-		"deputy": "Ipalibo Banigo",
-		"governor": "Ezenwo Nyesom Wike",
+		"deputy": "Edison Ehie",
+		"governor": "Siminalayi Fubara",
 		"slogan": "Treasure Base Of The Nation",
+		"created": "1967-05-27",
+		"population": "7303924",
+		"area": "11077",
+		"website": "www.riversstate.gov.ng",
+		"coordinates": {
+			"latitude": "4.8396",
+			"longitude": "6.9112"
+		},
+		"languages": [
+			"Ikwerre",
+			"Kalabari",
+			"Ogoni",
+			"Ekpeye",
+			"English"
+		],
+		"industries": [
+			"Oil and Gas",
+			"Manufacturing",
+			"Agriculture",
+			"Maritime"
+		],
 		"subRegion": [
 			"Port Harcourt",
 			"Obio-Akpor",
@@ -1055,9 +1687,28 @@
 		"name": "Sokoto",
 		"region": "North West",
 		"capital": "Sokoto",
-		"deputy": "Manir Muhammad Dan Iya",
-		"governor": "Aminu Tambuwal",
+		"deputy": "Muhammad Dan'Iya",
+		"governor": "Ahmad Aliyu",
 		"slogan": "The Seat Of The Caliphate",
+		"created": "1976-02-03",
+		"population": "4998090",
+		"area": "25973",
+		"website": "www.sokotostate.gov.ng",
+		"coordinates": {
+			"latitude": "13.0667",
+			"longitude": "5.2333"
+		},
+		"languages": [
+			"Hausa",
+			"Fulfulde",
+			"English"
+		],
+		"industries": [
+			"Agriculture",
+			"Leather Works",
+			"Mining",
+			"Commerce"
+		],
 		"subRegion": [
 			"Binji",
 			"Bodinga",
@@ -1089,9 +1740,30 @@
 		"name": "Taraba",
 		"region": "North East",
 		"capital": "Jalingo",
-		"deputy": "Haruna Manu",
-		"governor": "Dickson Darius Ishaku",
+		"deputy": "Aminu Alkali",
+		"governor": "Agbu Kefas",
 		"slogan": "Nature's Gift To The Nation",
+		"created": "1991-08-27",
+		"population": "3066851",
+		"area": "54473",
+		"website": "www.tarabastate.gov.ng",
+		"coordinates": {
+			"latitude": "7.8667",
+			"longitude": "9.8000"
+		},
+		"languages": [
+			"Jukun",
+			"Mumuye",
+			"Fulfulde",
+			"Hausa",
+			"English"
+		],
+		"industries": [
+			"Agriculture",
+			"Mining",
+			"Tourism",
+			"Manufacturing"
+		],
 		"subRegion": [
 			"Ardo Kola",
 			"Bali",
@@ -1119,6 +1791,26 @@
 		"deputy": "Idi Barde Gubana",
 		"governor": "Mai Mala Buni",
 		"slogan": "Pride Of The Sahel",
+		"created": "1991-08-27",
+		"population": "3294137",
+		"area": "45502",
+		"website": "www.yobestate.gov.ng",
+		"coordinates": {
+			"latitude": "12.1871",
+			"longitude": "11.7068"
+		},
+		"languages": [
+			"Kanuri",
+			"Hausa",
+			"Fulfulde",
+			"English"
+		],
+		"industries": [
+			"Agriculture",
+			"Livestock",
+			"Commerce",
+			"Mining"
+		],
 		"subRegion": [
 			"Bade",
 			"Bursari",
@@ -1144,9 +1836,28 @@
 		"name": "Zamfara",
 		"region": "North West",
 		"capital": "Gusau",
-		"deputy": "Mahdi Aliyu Gusau",
-		"governor": "Bello Matawalle",
+		"deputy": "Mani Mallam Mummuni",
+		"governor": "Dauda Lawal",
 		"slogan": "Home Of Agricultural Products",
+		"created": "1996-10-01",
+		"population": "4515427",
+		"area": "39762",
+		"website": "www.zamfarastate.gov.ng",
+		"coordinates": {
+			"latitude": "12.1833",
+			"longitude": "6.2500"
+		},
+		"languages": [
+			"Hausa",
+			"Fulfulde",
+			"English"
+		],
+		"industries": [
+			"Agriculture",
+			"Mining",
+			"Livestock",
+			"Commerce"
+		],
 		"subRegion": [
 			"Anka",
 			"Bakura",
@@ -1167,8 +1878,31 @@
 
 	{
 		"id": "FCT",
-		"name": "abuja",
+		"name": "Abuja",
 		"region": "North Central",
+		"capital": "Abuja",
+		"deputy": "Nysom Wike",
+		"governor": "Nysom Wike",
+		"slogan": "Centre Of Unity",
+		"created": "1976-02-03",
+		"population": "3564126",
+		"area": "7315",
+		"website": "www.fct.gov.ng",
+		"coordinates": {
+			"latitude": "9.0667",
+			"longitude": "7.4833"
+		},
+		"languages": [
+			"Gbagyi",
+			"Hausa",
+			"English"
+		],
+		"industries": [
+			"Public Administration",
+			"Commerce",
+			"Tourism",
+			"Construction"
+		],
 		"subRegion": [
 			"Abaji",
 			"Bwari",
