@@ -34,6 +34,7 @@ html_meta.update({
 html_baseurl = 'https://nigeriaapidocs.readthedocs.io'
 html_canonical_url = 'https://nigeriaapidocs.readthedocs.io'
 sitemap_url_scheme = '{link}'
+html_theme = 'sphinx_rtd_theme'
 
 # Generate sitemap
 html_extra_path = ['robots.txt', 'sitemap.xml']
@@ -41,6 +42,8 @@ html_extra_path = ['robots.txt', 'sitemap.xml']
 
 extensions = [
     # ... your existing extensions ...
+     'sphinx.ext.autodoc',
     'sphinx_sitemap',
-    'sphinxext.opengraph'
+    'sphinxext.opengraph',
+    'sphinx_rtd_theme'
 ]
