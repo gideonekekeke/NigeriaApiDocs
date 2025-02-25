@@ -29,6 +29,13 @@ html_meta.update({
     'twitter:description': 'Complete API documentation for Nigerian states, regions, and demographic data',
     'twitter:image': 'https://nigeriaapidocs.readthedocs.io/static/nigeria-api-logo.png'
 })
+# ... existing configuration ...
+
+# Schema.org JSON-LD
+html_js_files = ['schema.js']
+
+# ... existing configuration ...
+
 
 # Additional SEO settings
 html_baseurl = 'https://nigeriaapidocs.readthedocs.io'
@@ -37,7 +44,7 @@ sitemap_url_scheme = '{link}'
 html_theme = 'sphinx_rtd_theme'
 
 # Generate sitemap
-html_extra_path = ['robots.txt', 'sitemap.xml']
+html_extra_path = ['robots.txt', 'sitemap.xml', '_static/google45135a5f9da3b347.html']
 
 
 extensions = [
