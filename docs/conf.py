@@ -52,6 +52,9 @@ html_extra_path = ['robots.txt', 'sitemap.xml']
 #     'google-site-verification': 'google45135a5f9da3b347.html'
 # })
 
+templates_path = ['_templates']
+
+
 extensions = [
     # ... your existing extensions ...
      'sphinx.ext.autodoc',
