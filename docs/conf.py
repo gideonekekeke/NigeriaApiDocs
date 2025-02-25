@@ -46,11 +46,11 @@ html_theme = 'sphinx_rtd_theme'
 # Generate sitemap
 html_static_path = ['_static']
 html_extra_path = ['robots.txt', 'sitemap.xml']
-html_additional_files = ['_static/google45135a5f9da3b347.html']
+# html_additional_files = ['_static/google45135a5f9da3b347.html']
 
-html_meta.update({
-    'google-site-verification': 'google45135a5f9da3b347.html'
-})
+# html_meta.update({
+#     'google-site-verification': 'google45135a5f9da3b347.html'
+# })
 
 extensions = [
     # ... your existing extensions ...
